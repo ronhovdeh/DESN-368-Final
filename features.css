@@ -1,0 +1,167 @@
+*{
+    box-sizing: border-box;
+}
+header {
+    display: flex;
+}
+.pill-button {
+    float: center;
+    background: grey;
+    padding: 10px 30px 10px 30px;
+    border-radius: 30px;
+    color: white;
+    text-decoration: none;
+    
+}
+a:hover {
+color: yellow
+}
+.main-container{
+    width: 960px;
+    margin: 0 auto 0 auto;
+    padding-top: 50px;
+    
+}
+
+.box-2, .box-3{
+    
+    margin-top: 130px;
+}
+
+.box-1{
+    height: 570px;
+    width: 960px;
+    border: solid 5px;
+    position: relative;
+    
+}
+.box-2{
+height: 570px;
+    width: 960px;
+    border: solid 5px;
+    display: flex;
+}
+
+.box-3{
+    height: 270px;
+    width: 960px;
+    border: solid 5px;
+}
+/* box-1*/
+.red{
+    background:red;
+    width: 200px;
+    height: 200px;
+    position: center;
+  top: 0px;
+  right:750px;
+  background-image: url(images3/cello2.jpg);
+  height: 200px;
+  width; 300px;
+    
+}
+
+.green{
+    background:green;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    top: 0px;
+    right: 180px;
+    background-image: url(images3/black2.jpg);
+  height: 200px;
+  width:300px;
+}
+
+.blue{
+    background: darkblue;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    background-image: url(images3/acoustic2.jpg);
+  height:200px;
+  width:100px;   
+}
+
+.yellow{
+    background: yellow;
+    width: 200px;
+    height: 200px;
+    position: absolute;
+    bottom: 0px;
+    right: 160px; 
+  background-image: url(images3/piano2a.jpg);
+  height: 200px;
+  width:300px;
+}
+
+/* box-2*/
+
+.red2{
+background-image:url(images3/concert2.jpg);
+  height: 570px;
+  width:960px;
+}
+
+
+/* box-3*/
+.red3{
+    background: red;
+     width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
+  background-image:url(images3/headphones2%5C.jpg);
+}
+
+.green3{
+    background: green;
+     width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
+  background-image:url(images3/queen2.jpg);
+}
+
+.blue3{
+     background: darkblue;
+       width: 230px;
+    height: 260px;
+  margin-bottom: 300px;
+  display:inline-block;
+  background-image: url(images3/drums2.jpg);
+}
+
+.yellow3{
+    background: yellow;
+    width: 240px;
+    height: 270px;
+  margin-bottom:300px;
+  display:inline-block;
+  background-image: url(images3/sing2.jpg);
+}
+
+
+
+
+footer {
+  display:right;
+  padding: 20px 10px 15px 10px;
+  font-size: 15px;
+}
+#product-reviews {
+  background: skyblue;
+  color: white;
+  text-align: right;
+  padding: 30px;
+  }
+
+
+
+
+
+
+
+
+
