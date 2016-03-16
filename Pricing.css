@@ -1,0 +1,435 @@
+* {
+  box-sizing: border-box;
+}
+
+.main-container {
+  width: 1000px;
+  margin: 0 auto 0 auto;
+  background-color:  purple;
+}
+
+.nav-container {
+  margin-top: 10px;
+}
+
+header {
+  display: block;
+  background-color: black;
+    padding-top:0px;
+}
+
+.logo {
+  width: 260px;
+  height: 40px;
+  margin-left: 630px;
+  background-image: url(images3/acoustic.jpg);
+}
+
+.navlinks {
+  display: inline-block;
+  padding: 12px 40px;
+  border-radius: 50px;
+  margin-left: 20px;
+  margin-bottom: 20px;
+  color: white;
+  background-color: Light mediumpurple;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+a:link {
+  text-decoration: none;
+ 
+}
+
+a:hover {
+  color: yellow;
+}
+
+
+/* Footer */
+
+footer {
+  display: flex;
+  background: black;
+  font-style: bold;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+    padding-top: 15px;
+}
+
+.footer-links {
+  position: relative;
+  left: 780px;
+  color: white;
+  margin-bottom: 40px;
+    margin-left: -20px;
+    margin-right: 25px;
+   
+    
+}
+
+.signature {
+  margin-top: 30px;
+  flex: 4;
+  text-align: right;
+}
+
+.signature p {
+  margin: 0px;
+  color: white;
+}
+
+
+/*Home.html*/
+
+#sign-up {
+  padding-top: 200px;
+  background-image: url("bw.jpg");
+  background-repeat: no-repeat;
+}
+
+.message {
+  width: 60%;
+  padding: 40px;
+  font-style: bold;
+  margin-top: -200px;
+  margin-left: 200px;
+  align-content: center;
+ font-family: 'Open Sans', sans-serif;
+}
+
+
+#sign-up {
+  padding-top: 300px;
+  padding-bottom: 100px;
+}
+
+
+/* Features */
+
+.featuremusic,
+.feature,
+.pricelist {
+  display: flex;
+}
+
+.music {
+  text-align: center;
+  padding: 20px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.music-image {
+  width: 200px;
+  height: 200px;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.feature {
+  padding-top: 100px;
+  align-items: center;
+  margin-bottom: 150px;
+}
+
+.featureimage {
+  position: relative;
+  right: -550px;
+}
+
+.feature-info {
+  font-size: 20px;
+  margin-right: 500px;
+  margin-left: -400px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.featurelink {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+  font-family: 'Quicksand', sans-serif;
+}
+
+
+/* Features.html*/
+
+.featurefloat {
+  height: 500px;
+  width: 1000px;
+  padding-top: 40px;
+  position: relative;
+}
+
+.music-1 {
+  width: 250px;
+  height: 150px;
+  margin-left: 40px;
+}
+
+.music-2 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  top: 40px;
+  right: 200px;
+}
+
+.music-3 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  bottom: 125px;
+  left: 40px;
+}
+
+.music-4 {
+  width: 250px;
+  height: 150px;
+  position: absolute;
+  bottom: 125px;
+  right: 200px;
+}
+
+.featheader {
+  width: 150px;
+  height: 150px;
+  position: relative;
+  right: -260px;
+  top: -170px;
+  font-size:12px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.promo-image {
+  width: 600px;
+  height: 200px;
+  margin-left: 200px;
+}
+
+.promo-text {
+  text-align: center;
+  font-size: 15px;
+  width: 400px;
+  margin-left: 300px;
+  margin-top: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.priceimage {
+  display: flex;
+  margin-left: 120px;
+  margin-top: 60px;
+}
+
+.priceimage1 {
+  width: 150px;
+  height: 150px;
+}
+
+.priceimage2 {
+  width: 150px;
+  height: 150px;
+}
+
+.priceimage3 {
+  width: 150px;
+  height: 150px;
+}
+
+.priceimage4 {
+  width: 150px;
+  height: 150px;
+}
+
+.priceimage5 {
+  width: 150px;
+  height: 150px;
+}
+
+.pricelink {
+  display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+.price-link{
+    
+display: inline-block;
+  padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+  margin-top: 20px;
+  margin-bottom: 30px;
+    margin-left: 450px;
+  font-family: 'Quicksand', sans-serif;
+}
+
+/* Pricing*/
+
+#pricing {
+  width: 1000px;
+  height: 400px;
+  margin-bottom: 50px;
+}
+
+.prices {
+   border: 8px solid black;
+  width: 400px;
+  height: 400px;
+  margin-left: 20px;
+  margin-right: 20px;
+}
+
+.pricelist{
+    display: flex;
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.buy-now{
+
+padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+ 
+   
+}
+
+.price-info-1{
+    font-family: 'Quicksand', sans-serif;
+   width: 200px;
+     margin-top: 20px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 60px;
+}
+
+
+
+.price-info-2{
+    font-family: 'Quicksand', sans-serif;
+    width: 200px;
+    text-align: center;
+    margin-left: 40px;
+    margin-top: -20px;
+    margin-bottom: 30px;
+}
+
+
+
+.price-info-3{
+    font-family: 'Quicksand', sans-serif;
+     width: 200px;
+    text-align: center;
+    margin-left: 40px;
+    margin-bottom: 21px;
+}
+
+.priceheadermain{
+     margin-top: 20px;
+    font-size: 60px;
+    margin-bottom: 5px;
+}
+.pricesubhead{
+    margin-top: -50px;
+    font-size: 25px;
+}
+
+.pricesubhead2{
+    margin-top: -2px;
+    font-size: 25px;
+    margin-bottom: -30px;
+}
+
+
+.priceheader{
+    margin-top: 30px;
+    font-size: 40px;
+}
+
+.mostpopular{
+
+    font-size: 30px;
+}
+
+
+.notconvinced{
+    width: 400px;
+    margin-top: 100px;
+    text-align: center;
+    margin-left: 335px;
+    margin-bottom: 100px;
+    font-family: 'Quicksand', sans-serif;
+    font-size: 25px;
+}
+
+.bloglink{
+ padding: 10px 30px;
+  color: white;
+  border-radius: 50px;
+  background-color: black;
+  text-decoration: none;
+    
+   
+    
+}
+
+
+/*blog*/
+
+.article{
+    
+    width: 950px;
+    height: 1000px;
+    margin-top: 40px;
+   margin-left: 25px;
+    padding-right: 60px;
+    padding-left: 10px;
+    font-size: 16px;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.img1{
+    margin-top: 35px;
+    margin-left: 25px;
+    float: right;
+}
+
+.img2{
+     margin-top: 35px;
+    margin-right: 25px;
+    float: left
+}
+.blogtitle{
+   font-size: 50px;
+    margin-top: 40px;
+    margin-left: 25px;
+    width:480px;
+    font-family: 'Quicksand', sans-serif;
+}
+
+
+
+
+
+
+
+
+
